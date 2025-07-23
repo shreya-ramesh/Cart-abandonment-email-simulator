@@ -15,6 +15,34 @@ This project predicts **cart abandonment behavior** using real-world e-commerce 
 
 The dataset was obtained from Medium blog.
 
+Features in dataset:
+<pre>
+ID: The session id of the customer.
+
+Is_Product_Details_viewed: Whether the customer is viewing the product details or not.
+
+Session_Activity_Count: How many times a customer is going to the different pages.
+
+No_Items_Added_InCart: Number of items in cart.
+
+No_Items_Removed_FromCart: Number of items removed from the cart.
+
+No_Cart_Viewed: How many times the customer is going to the cart page.
+
+No_Checkout_Confirmed: How many times the checkout has been confirmed successfully by the customer.
+
+No_Checkout_Initiated: How many times the checkout(successful as well as unsuccess) is being done by the user.
+
+No_Cart_Items_Viewed: How many times a user is viewing the product from cart.
+
+No_Customer_Login: Number of times the customer had did log in.
+
+No_Page_Viewed: Number of pages viewed by the customer.
+
+Customer_Segment_Type: The customer falls under which category,i.e, 0 for Target Customer, 1 for Loyal Customer, and 2 for Untargeted customer.
+
+Cart_Abandoned: Whether the customer is doing cart abandonment or not. This is the target variable that we need to predict.</pre>   
+
 ---
 
 ## ML Models Used
@@ -57,13 +85,13 @@ The email simulator is a lightweight tool to test recovery actions:
 cart_abandonment/
 │
 ├── data/
-│ └── data_cart_abandonment.csv #source data
+│ └── data_cart_abandonment.csv   #source data
 ├── model/
-│ └── model.pkl #trained models
+│ └── model.pkl                   #trained models
 ├── notebook/
-│ └── model.ipynb # Notebook with EDA + training
-├── simulation.py #email and streamlit logic
-├── requirements.txt # Python dependencies
+│ └── model.ipynb                 #Notebook with EDA + training
+├── simulation.py                 #email and streamlit logic
+├── requirements.txt              #Python dependencies
 └── README.md </pre>
 
 ---
@@ -87,7 +115,6 @@ cart_abandonment/
 ---
 
 ## Contact
-For queries or collaboration:
-SHREYA RAMESH — shreya.ramesh22@gmail.com
+For queries or collaboration: shreya.ramesh22@gmail.com
 
 
